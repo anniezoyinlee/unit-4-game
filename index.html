@@ -4,9 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CrystalsCollector Game</title>
+    <title>Crystals Collector Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Crystals Collector</h1>
+    </header>
+    <main>
+    <section class="instructions">
+        <ul>
+            <li>You will be given a random number at the start of the game.</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </section>
+    <section class="game-info">
+        <p>Target:<span id="target" class="target">0</span></p>
+        <p>Wins:<span id="wins" class="wins">0</span></p>
+        <p>Losses:<span id="losses" class="losses">0<Losses/span></p>
+    </section>
+    <section class="gems">
+        <img id="blue-gem" src="assets/images/blue-gem.png" alt="Blue Gem">
+        <img id="green-gem" src="assets/images/green-gem.png" alt="Green Gem">
+        <img id="orange-gem" src="assets/images/orange-gem.png" alt="Orange Gem">
+        <img id="red-gem" src="assets/images/red-gem.png" alt="Red Gem">
+    </section>
+    <section class="score">
+        <p>Your Total Score is:</p>
+        <span id="total" class="total">0</span>
+    </section>
+    </main>
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+   
 </body>
 </html>
