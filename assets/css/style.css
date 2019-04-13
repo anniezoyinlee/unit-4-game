@@ -1,0 +1,78 @@
+
+header {
+    text-align: center;
+    font-family: 'Fascinate Inline', cursive;
+    text-shadow: 7px 5px 5px rgba(229, 147, 147, 0.801);
+    font-size: 50pt;
+    background: rgb(255, 229, 181);
+    color: rgb(241, 115, 136);
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+body {
+    background: rgb(215, 236, 202);
+    background: linear-gradient(rgb(204, 233, 167),rgb(233, 216, 255));  
+}
+
+.instructions {
+    width: 50%;
+    text-align: justify;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 25pt;
+    background: rgb(255, 221, 211);
+    padding: 40px 60px 40px 60px ;
+    border: 12px dotted rgb(255, 155, 5);
+    border-radius: 100px;
+    margin: auto;
+
+}
+
+.game-info {
+    text-align: center;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 45pt;
+    margin: 20px;
+}
+
+.gems {
+    text-align: center;
+    position: relative;
+}
+
+#blue-gem {
+    box-shadow: inset 15px 10px 15px  rgba(255, 255, 255, 0.753);
+    border-radius: 100px;
+    border: 10px double rgba(255, 255, 255, 0.767);
+    padding:10px;
+    background: rgba(149, 195, 255, 0.63);
+}
+
+#green-gem {
+    box-shadow: inset 15px 10px 15px  rgba(255, 255, 255, 0.753);
+    border-radius: 100px;
+    border: 10px double white;
+    padding:10px;
+    background:rgba(149, 255, 175, 0.678);
+}
+
+#orange-gem {
+    box-shadow: inset 15px 10px 15px  rgba(255, 255, 255, 0.753);
+    border-radius: 100px;
+    border: 10px double white;
+    padding:10px;
+    background: hsla(29, 100%, 77%, 0.692);}
+
+#red-gem {
+    box-shadow: inset 15px 10px 15px  rgba(255, 255, 255, 0.753);
+    border-radius: 100px;
+    border: 10px double white;
+    padding:10px;
+    background: rgba(255, 149, 184, 0.658);}
+
+.score {
+    text-align: center;
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 40pt;
+    margin: 20px;
+}
